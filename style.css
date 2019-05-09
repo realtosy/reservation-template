@@ -1,0 +1,129 @@
+html {
+  font-size: 10px;
+  background-color: hsl(0, 0%, 97%);
+}
+
+body {
+  height: 64rem;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 1.6rem;
+  box-shadow: 15px 0px 15px hsl(0, 0%, 95%),
+              -15px 0px 15px hsl(0, 0%, 95%);
+  width: 36rem;
+  margin: 0 auto;
+  padding: 4rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+section {
+  margin-top: 5rem;
+}
+
+section section {
+  margin-top: 2rem;
+}
+
+.back {
+  float: left;
+  background: none;
+  border: none;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.search {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  line-height: 1;
+  position: relative;
+  top: 13px;
+}
+
+.photo {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background: url('City.jpg') 49% 80%  no-repeat;
+  border: 0.5rem solid black;
+  border-radius: 70%;
+  box-shadow: 0 1rem 1rem lightgray;
+}
+
+.place {
+  font-size: 2rem;
+  line-height: 2;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+}
+
+.caption {
+  margin-top: 2rem;
+  color: gray;
+  font-size: 2rem;
+}
+
+.changer {
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: lightgray;
+  line-height: 2;
+}
+
+.numberCounter {
+  border: none;
+  text-align: center;
+  font-size: 8rem;
+  color: gray;
+  font-weight: bold;
+  width: 30%;
+  line-height: 2;
+  vertical-align: -1.5rem;
+  height: 8rem;
+}
+
+.datetime {
+  border: none;
+  color: gray;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 25rem;
+  margin-left: 6rem;
+}
+
+button:focus, input {
+  outline: none;
+}
+
+.changer:hover {
+  color: gray;
+}
+
+section {
+  text-align: center;
+}
+
+.confirm {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  width: 70%;
+  height: 8rem;
+  margin-top: 2rem;
+  box-shadow: 0.4rem 0.4rem 2rem lightgray,
+              -0.4rem 0.4rem 2rem lightgray,
+              0.2rem -0.2rem 2rem lightgray,
+              -0.2rem -0.2rem 2rem lightgray;
+  line-height: 2;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: black;
+  border: none;
+}
